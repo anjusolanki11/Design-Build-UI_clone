@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    height: 771px;
+
+    display: flex;
+}
+
+.box-1 {
+    width: 57%;
+    height: 771px;
+    background-color: rgb(27, 44, 20);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.div-1 {
+    width: 85%;
+    height: 80px;
+
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+}
+
+.div-1 ul {
+    list-style: none;
+}
+
+.div-1 li {
+    color: white;
+}
+
+.space {
+    width: 85%;
+    height: 30px;
+
+    border-bottom: 2px solid white;
+
+}
+
+.div-2 {
+    width: 85%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 1px solid white;
+}
+
+.div-2 img {
+    width: 95%;
+    height: 270px;
+}
+
+.div-3-img {
+    width: 85%;
+    height: 220px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.div-3-img ul {
+    list-style: none;
+}
+
+.ul-0 p {
+    width: 200px;
+    height: 30px;
+
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.ul-1 {
+    width: 340px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ul-1 img {
+    width: 350px;
+    height: 240px;
+}
+
+.ul-2 p {
+    margin-left: 90px;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.ul-3 {
+    width: 180px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-3 img {
+    width: 220px;
+    height: 145px;
+    background-size: cover;
+}
+
+
+
+
+
+
+.box-2 {
+    width: 43%;
+    height: 771px;
+
+}
+
+.div-21 {
+    width: 100%;
+    height: 400px;
+
+
+}
+
+.div-21 ul {
+    list-style: none;
+}
+
+.div-21 {
+    width: 100%;
+    height: 500px;
+}
+
+.div-21 img {
+    width: 100%;
+    height: 465px;
+
+}
+
+.div-22 {
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid black;
+    display: flex;
+
+}
+
+.img-02 {
+    width: 100%;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.t-1 {
+    width: 30%;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.t-2 {
+    width: 50%;
+    height: 35px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.t-2 img {
+    width: 80px;
+    height: 40px;
+}
+
+span {
+    color: gray;
+}
+
+.img-02 ul {
+    list-style: none;
+}
+
+.div-24 {
+    width: 100%;
+    height: 225px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.div-24 p {
+    font-size: 19px;
+    padding-bottom: 20px;
+
+}
+
+.btn {
+    width: 83%;
+    height: 50px;
+
+}
+
+.div-24 button {
+    width: 130px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    font-size: 12px;
+}
+
+
+
+@media (max-width:768px) {
+    .main-container {
+        width: 100%;
+        height: auto;
+        position: fixed;
+       
+    }
+
+    .box-1 {
+        width: 100%;
+        height: 600px;
+        background-color: rgb(27, 44, 20);
+    }
+
+    .div-1 {
+        width: 85%;
+        height: 50px;
+        
+    }
+
+    .space {
+        width: 85%;
+        height: 20px;
+    }
+    .div-2{
+        width: 90%;
+        height: 250px;
+        border-bottom: 2px solid white;
+        
+    }
+    .div-2 img {
+        width: 100%;
+        height: 200px;
+       
+    }
+    .div-3-img{
+        width: 95%;
+        height: 230px;
+    }
+
+    .ul-0 p {
+        width: 80%;
+        height: 20px;
+        font-size: 12px;
+       
+    }
+
+    .ul-1 {
+        width: 130%;
+        height: 150px;
+       
+    }
+
+    .ul-1 img {
+        width: 80%;
+        height: 200px;
+        
+    }
+    .ul-2{
+        width: 40%;
+        height: 30px;
+        margin-bottom: 40px;
+        
+    }
+
+    .ul-2 p{
+        width: 100%;
+        height: 30px;
+        font-size: 12px;
+       margin-left: 85px;
+    }
+
+    .ul-3 {
+        width: 30%;
+        height: 100px;
+      
+        
+    }
+    .ul-3 img{
+        width: 120px;
+        height: 100px;
+       margin-top: -10px;
+       margin-left: 60px;
+    }
+
+
+    .box-2 {
+        width: 40%;
+        height: 600px;
+       
+    }
+
+    .div-21 img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .div-22 {
+        width: 100%;
+        height: 300px;
+        padding-bottom: 200px;
+        margin-top: -200px;
+    }
+   
+    .t-1{
+        width: 100px;
+        font-size: 10px;
+    }
+    .t-2{
+        width: 200px;
+        font-size: 12px;
+    }
+    .t-2 img{
+        width: 30px;
+        height: 30px;
+    }
+    .div-24 p{
+        font-size: 13px;
+        padding-left: 20px;
+    }
+    .btn{
+        padding-bottom: 550px;
+        padding-right: 0px;
+    }
+}
